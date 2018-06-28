@@ -1,0 +1,29 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites" : [
+     {
+      "source": "**",
+      "destination": "/public/index.html"
+     },
+     {
+      "source": "/",
+      "destination": "/public/index.html"
+     },
+     {
+      "source": "/admin/**",
+      "destination": "/admin/index.html"
+     },
+     {
+      "source": "/admin",
+      "destination": "/admin/index.html"
+     }
+    ],
+    "trailingSlash": false
+  }
+}

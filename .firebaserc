@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "<INSERT_YOUR_FIREBASE_HOST_PROJECT>"
+  }
+}
